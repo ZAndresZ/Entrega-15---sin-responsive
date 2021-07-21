@@ -1,0 +1,14 @@
+@import "color";
+th{
+    background-color:$colorBlanco;
+    border: 2px solid;
+} 
+tr,caption{
+    border: 3px solid $colorBlanco;
+    opacity: 0.9;
+}
+td{
+    border: 3px solid $colorBlanco;
+    opacity: 0.9;
+    padding: 20px 15px;
+}

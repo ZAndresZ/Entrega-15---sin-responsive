@@ -1,0 +1,64 @@
+@import "color";
+header ul{
+    margin: 0px;
+    padding: 10px 30px;
+    list-style: none;
+    display: inline-block;
+}
+.header__logo--principal{
+    display:block;
+    margin:auto;
+    width: 70vw;
+}
+.header__logo--secundaria{
+    display:block;
+    margin:auto;
+    width: 50vw;
+}
+header li{
+    flex-basis: 12vw;
+}
+header li .dropdown-item
+{
+    flex-basis: 6vw;
+}
+header ul li{
+    float: left;
+    height: 35px;
+    background-color:rgb(82, 82, 82);
+    opacity: 0.9;
+    line-height: 32px;
+    text-align: center;
+    border: outset 5px rgb(199, 199, 199);
+    margin: 2px 5px;
+    order: 1;
+    width: 12vw;
+    z-index: 9;
+}
+header ul li a{
+    text-decoration: none;
+    color: $colorBlanco;
+    display: block;
+    font-weight: bolder;
+    z-index: 90;
+}
+header ul li a:hover{
+    background-color:rgb(173, 173, 173);
+    flex-basis: 12vw;
+    z-index: 95;
+}
+/*.listaLenta{
+    overflow: hidden;
+    transition: all 10s ease;
+}*/
+header ul li ul li{
+    display: none;
+    position: relative;
+    right: 40px;
+    width: 12vw;
+    z-index: 99;
+}
+header ul li:hover ul li{
+    z-index: 100;
+    display: block;
+}
