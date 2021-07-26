@@ -1,8 +1,6 @@
-@import "color";
-
 @mixin centralizarMedia($ancho) {
     display:block;
-    margin:auto;
+    margin:5vw auto;
     width: $ancho;
 }
 .mediaCentralizado{

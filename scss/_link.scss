@@ -1,4 +1,3 @@
-@import "color";
 .linkCentralizado{
     text-align: center;
 }
@@ -17,6 +16,7 @@
     animation-name: linkDeCompra;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
+    margin: 0px 0px 10px 0px;
 }
 .enlace{
     font-weight: bold;
