@@ -18,13 +18,16 @@
     animation-name: linkDeCompra;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
-    margin: 0px 0px 10px 0px;
+    margin: 12px;
 }
 .enlace{
     font-weight: bold;
     text-align: center;
     color: $colorBlanco;
     text-transform: capitalize;
+}
+.dropdown{
+    margin: 20px;
 }
 
 @keyframes linkDeCompra{
