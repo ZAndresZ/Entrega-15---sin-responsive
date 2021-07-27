@@ -17,6 +17,15 @@
     .card{
         width: 100%;
     }
+    header ul li a{
+        font-size: 0.5rem;   
+    }
+    .menuHtml ul li{
+        flex-direction:  column;
+    }
+    footer{
+        flex-flow: column;
+    }
 }
 @media only screen and (min-width: 600px) {
     body {
@@ -32,9 +41,16 @@
     .gradienteFooter{
         background: rgb(38,38,38);
         background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(177,177,177,1) 100%);
+    }
     .card{
         width: 50%;
     }
+    
+    header ul li a{
+        font-size: 0.8rem;   
+    }
+    .menuHtml{
+        flex-direction:  row;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -52,5 +68,10 @@
         background: rgb(0,0,0);
         background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(55,55,55,1) 78%, rgba(108,108,108,1) 100%);
     }
-
+    header ul li a{
+        font-size: 1rem;   
+    }
+    .menuHtml ul{
+        flex-direction:  row;
+    }
 }

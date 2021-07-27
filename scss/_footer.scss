@@ -1,8 +1,9 @@
+@import "color";
 footer{
     margin: 40px;
     padding: 20px;
-    display: flex;
-    flex-flow: nowrap row;
+    display: inline-block;
+
     justify-content: space-evenly;
     align-content: center;
 }

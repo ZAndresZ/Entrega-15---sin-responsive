@@ -1,3 +1,5 @@
+@import "color";
+
 @mixin centralizarMedia($ancho) {
     display:block;
     margin:5vw auto;
@@ -10,7 +12,7 @@
     @include centralizarMedia(80vw)
 }
 .gifCentralizado{
-    @include centralizarMedia(50vw)
+    @include centralizarMedia(65vw)
 }
 .bannerCooperTitan{
     border: transparent hidden 0px;
@@ -70,7 +72,7 @@
     background-image: url(../images/fondos/fondoTitan.jpg);
     background-attachment: fixed;
     opacity: 0.8;
-    background-size: 100% 100%;
+    background-size: auto;
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
