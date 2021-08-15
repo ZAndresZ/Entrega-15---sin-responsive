@@ -62,7 +62,7 @@ header ul li {
   opacity: 0.9;
   line-height: 28px;
   text-align: center;
-  border: outset 6px #c7c7c7;
+  border: outset 3px #c7c7c7;
   margin: 2px 10px;
   order: 1;
   width: 14vw;
@@ -171,7 +171,7 @@ header ul li:hover ul li {
   text-align: center;
   font-size: 1.2rem;
   padding: 10px 10px;
-  margin: 10px 100px;
+  margin: 10px 10px;
   border: transparent hidden 20px; }
 
 .textoCooperTitan {
@@ -217,12 +217,13 @@ header ul li:hover ul li {
 
 .gridConcepto {
   display: grid;
+  width: 85vw;
   margin: 25px;
   grid-template-columns: repeat(4, 22vw);
   grid-template-rows: auto;
   grid-template-areas: "img1 img1 img1 img1" "img2 img2 txt1 img5" "txt2 img3 img3 txt3" "img6 txt4 img4 img4";
   justify-content: center;
-  gap: 12px;
+  gap: 15px;
   align-items: center; }
   .gridConcepto img {
     inline-size: 100%; }
@@ -372,9 +373,6 @@ header ul li:hover ul li {
   font-style: italic;
   text-align: center;
   font-weight: bolder; }
-
-.fondoDeVersiones {
-  background-image: url(../images/fondos/tf2Fondo2.jpg); }
 
 /*botones flotantes*/
 #btn-mas {

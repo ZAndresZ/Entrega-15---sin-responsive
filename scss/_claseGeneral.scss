@@ -100,7 +100,7 @@ $bg2:rgb(187, 49, 49);
     text-align: center;
     font-size: 1.2rem;
     padding: 10px 10px;
-    margin: 10px 100px;
+    margin: 10px 10px;
     border: transparent hidden 20px;
 }
 .textoCooperTitan{
@@ -152,6 +152,7 @@ $bg2:rgb(187, 49, 49);
 
 .gridConcepto{
     display: grid;
+    width: 85vw;
     margin: 25px;
     grid-template-columns: repeat(4, 22vw);
     grid-template-rows: auto;
@@ -161,7 +162,7 @@ $bg2:rgb(187, 49, 49);
         "txt2 img3 img3 txt3"
         "img6 txt4 img4 img4";
     justify-content: center;
-    gap: 12px;
+    gap: 15px;
     align-items: center;
     img {
         inline-size: 100%;
