@@ -193,8 +193,6 @@ header ul li:hover ul li {
 
 .contacto {
   text-align: center;
-  background-image: url(../images/banners/tf2CreationOfJack.jpg);
-  background-size: 100%;
   color: #461fd4;
   font-weight: bold; }
 
@@ -217,7 +215,8 @@ header ul li:hover ul li {
 
 .gridConcepto {
   display: grid;
-  width: 85vw;
+  position: relative;
+  width: 82vw;
   margin: 25px;
   grid-template-columns: repeat(4, 22vw);
   grid-template-rows: auto;

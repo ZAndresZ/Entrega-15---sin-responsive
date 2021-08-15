@@ -123,8 +123,6 @@ $bg2:rgb(187, 49, 49);
 }
 .contacto{
     text-align: center;
-    background-image: url(../images/banners/tf2CreationOfJack.jpg);
-    background-size: 100%;
     color: rgb(70, 31, 212);
     font-weight: bold;
 }
@@ -152,7 +150,9 @@ $bg2:rgb(187, 49, 49);
 
 .gridConcepto{
     display: grid;
-    width: 85vw;
+    position: relative;
+
+    width: 82vw;
     margin: 25px;
     grid-template-columns: repeat(4, 22vw);
     grid-template-rows: auto;
