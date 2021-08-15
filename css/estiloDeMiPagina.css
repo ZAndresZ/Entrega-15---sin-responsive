@@ -31,7 +31,7 @@ h3 {
   margin: 2vw; }
 
 p {
-  margin: 15px; }
+  margin: 35px; }
 
 header ul {
   margin: 0px;
@@ -215,8 +215,6 @@ header ul li:hover ul li {
 
 .gridConcepto {
   display: grid;
-  position: relative;
-  width: 82vw;
   margin: 25px;
   grid-template-columns: repeat(4, 22vw);
   grid-template-rows: auto;
