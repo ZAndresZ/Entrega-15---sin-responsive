@@ -217,12 +217,12 @@ header ul li:hover ul li {
 
 .gridConcepto {
   display: grid;
-  margin: 20px;
+  margin: 25px;
   grid-template-columns: repeat(4, 22vw);
   grid-template-rows: auto;
   grid-template-areas: "img1 img1 img1 img1" "img2 img2 txt1 img5" "txt2 img3 img3 txt3" "img6 txt4 img4 img4";
   justify-content: center;
-  gap: 30px;
+  gap: 12px;
   align-items: center; }
   .gridConcepto img {
     inline-size: 100%; }
@@ -491,7 +491,9 @@ header ul li:hover ul li {
   .menuHtml ul li {
     flex-direction: column; }
   footer {
-    flex-flow: column; } }
+    flex-flow: column; }
+  p {
+    color: #e0e0e0; } }
 
 @media only screen and (min-width: 600px) {
   body {
