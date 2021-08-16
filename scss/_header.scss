@@ -17,7 +17,7 @@ header ul{
     width: 50vw;
 }
 header li{
-    flex-basis: 14vw;
+    flex-basis: 15vw;
 }
 header li .dropdown-item
 {
@@ -33,7 +33,7 @@ header ul li{
     border: outset 3px rgb(199, 199, 199);
     margin: 2px 10px;
     order: 1;
-    width: 14vw;
+    width: 15vw;
     z-index: 90;
 }
 header ul li a{
@@ -45,7 +45,7 @@ header ul li a{
 }
 header ul li a:hover{
     background-color:rgb(173, 173, 173);
-    flex-basis: 14vw;
+    flex-basis: 15vw;
     z-index: 95;
 }
 /*.listaLenta{
@@ -55,8 +55,8 @@ header ul li a:hover{
 header ul li ul li{
     display: none;
     position: relative;
-    right: 45px;
-    width: 14vw;
+    right: 42px;
+    width: 15vw;
     z-index: 99;
 }
 header ul li:hover ul li{
